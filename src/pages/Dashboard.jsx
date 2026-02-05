@@ -6,7 +6,7 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-gray-100">
       
-      {/* Header */}
+      
       <div className="px-8 py-6">
         <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
         <p className="text-gray-600 mt-1">
@@ -14,10 +14,10 @@ export default function Dashboard() {
         </p>
       </div>
 
-      {/* Cards */}
+      
       <div className="px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-        {/* Ask AI */}
+        
         <div className="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
           <h3 className="text-lg font-semibold mb-2">Ask AI</h3>
           <p className="text-gray-600 mb-4">
@@ -31,7 +31,7 @@ export default function Dashboard() {
           </button>
         </div>
 
-        {/* Document Viewer */}
+        
         <div className="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
           <h3 className="text-lg font-semibold mb-2">Document Viewer</h3>
           <p className="text-gray-600 mb-4">
@@ -45,7 +45,7 @@ export default function Dashboard() {
           </button>
         </div>
 
-        {/* Notes */}
+        
         <div className="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
           <h3 className="text-lg font-semibold mb-2">Notes & Knowledge Base</h3>
           <p className="text-gray-600 mb-4">
@@ -59,7 +59,7 @@ export default function Dashboard() {
           </button>
         </div>
 
-        {/* Settings */}
+        
         <div className="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
           <h3 className="text-lg font-semibold mb-2">Profile & Settings</h3>
           <p className="text-gray-600 mb-4">
